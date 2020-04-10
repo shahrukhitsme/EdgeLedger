@@ -1,0 +1,43 @@
+.what-item{
+    display: flex;
+    text-align: left;
+    font-size: 0.7rem;
+    width:100%;
+}
+
+.what-item p{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.what-item i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.what-items{
+    display: block;
+    width: 100%;
+}
+
+#teamPhoto{
+    flex:0;
+}
+
+#who-section{
+    width:100%;
+}
+
+#navbar{
+    display: block;
+    text-align: center;
+}
+
+#navbar ul{
+    justify-content: center;
+}
+
+#client-icons div:last-child{
+    display: none;
+}
